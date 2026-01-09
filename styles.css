@@ -143,13 +143,12 @@ li {
   }
 }
 
-/* --- Quiz styling (inherits site font/colors) --- */
 .quiz {
   margin-top: 16px;
   padding: 16px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 12px;
-  background: transparent; /* keeps your site look */
+  background: transparent;
 }
 
 .quiz__question {
@@ -182,7 +181,6 @@ li {
   align-items: center;
 }
 
-/* Buttons: if your site already has button styles, these will lightly enhance them */
 .btn {
   border: 0;
   border-radius: 12px;
@@ -196,13 +194,11 @@ li {
   cursor: not-allowed;
 }
 
-/* Use currentColor-ish feel; tweak if your site has a brand color */
 .btn--primary {
   background: #111;
   color: #fff;
 }
 
-/* Status box */
 .status {
   display: none;
   margin-top: 14px;
@@ -223,7 +219,6 @@ li {
   border-color: rgba(239, 68, 68, 0.35);
 }
 
-/* Link styled as a button */
 .btn-link {
   display: inline-block;
   padding: 10px 16px;
@@ -269,4 +264,5 @@ li {
 .toggle-image:active {
   transform: scale(1);
   opacity: 0.9;
+
 }
