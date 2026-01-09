@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dorcas Poindexter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>How to Build a Better Dorcas</header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#Quiz_time" class="nav-link">Quiz Time!</a></li>
+        <li><a href="#Plastic_surgery" class="nav-link">Appearance</a></li>
+        <li><a href="#Telling_the_truth" class="nav-link">Being Honest</a></li>
+        <li><a href="#Social_game" class="nav-link">Social!</a></li>
+        <li><a href="#The_new_Dorcas" class="nav-link">The New Dorcas</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Hello Dorcas! It's me, internationally recognized investigative journalist Fernanda Marzipan and since I've been tasked with making your self-improvement plan, I thought I'd go all out because I truly see a diamond in the rough. I know you have the potential to be better and although I believe it will take a lot of work and many, many, many, many, MANY steps, it is still achievable! This website here has been personally created by ME (aren't I so kind?) to give you fun and interactive ways to find out how to rebuild yourself from the ground up!</p>
+      </section>
+      <!--section2-->
+    <section class="main-section" id="Quiz_time">
+        <header>Quiz Time!</header>
+        <p>
+            You might be unaware of some of the flaws you should be addressing as part of this self-improvement plan, so I thought I'd let you try and give it a go at finding out what you should be working on!
+        </p>
+
+        <div class="quiz" id="dorcas-quiz">
+            <h2 class="quiz__question" id="quiz-question"></h2>
+
+            <form class="quiz__choices choices" id="quiz-choices" aria-label="Quiz choices"></form>
+
+            <div class="quiz__actions actions">
+                <button id="quiz-submit" class="btn btn--primary submit" disabled type="button">
+                    Submit
+                </button>
+            </div>
+
+            <div id="quiz-status" class="quiz__status status" role="status" aria-live="polite"></div>
+        </div>
+        </section>
+
+        <!--section3-->
+      <section class="main-section" id="Plastic_surgery">
+        <header>A consulation with Dr. Knosa Giobbs</header>
+        <p>Rome wasn't built in a day... and neither will your new face, but a great and attainable first step is a consultation with esteemed plastic surgeon Dr. Knosa Giobbs! She's worked on some truly hopeless cases and turned them into absolute beauties! I highly suggest bringing up the following to her, you sure as hell need them!</p>
+        <ul id="special-chars">
+            <li><span class="list-name">Blepharosplasty</span></li>
+            <li><span class="list-name">Botox</span></li>
+            <li><span class="list-name">Brow lift</span></li>
+            <li><span class="list-name">Cheek lift</span></li>
+            <li><span class="list-name">Chemical peel</span></li>
+            <li><span class="list-name">Chin surgery</span></li>
+            <li><span class="list-name">Collagen fillers</span></li>
+            <li><span class="list-name">Dermabrasion</span></li>
+            <li><span class="list-name">Face lift</span></li>
+            <li><span class="list-name">Facial contouring</span></li>
+            <li><span class="list-name">Facial fillers</span></li>
+            <li><span class="list-name">Jaw implants</span></li>
+            <li><span class="list-name">Laser hair removal (for your mustache!)</span></li>
+            <li><span class="list-name">Lip filler</span></li>
+            <li><span class="list-name">Neck lift</span></li>
+            <li><span class="list-name">Otoplasty</span></li>
+            <li><span class="list-name">Rhinoplasty</span></li>
+          </ul>
+      </section>
+      <section class="main-section" id="Telling_the_truth">
+        <header>A dance with the truth</header>
+        <p>The stories Dorcas tells are about as straight as I am... not! To be a truly good person, you need to be honest. A way to be honest is to tell the whole truth about who you are and to admit when you have lied in the past. When inconsistencies add up, it causes people to feel distrust towards you and as such, makes it harder to build meaningful relationships with them. This flaw is actually quite simple to fix, it doesn't require any procedures, just speaking.</p>
+        <header class="list-section">Lie Collector</header>
+        <p>I even have a fun game to represent some lies you've told about your academic career!</p>
+        <p><a href="dorcasdodge.html" class="btn-link">Play!</a></p>
+        <p>After playing this fun educational game, I hope you reflect on your lies and learn to tell the truth. Quadmatics aren't even a thing. Nobody will judge you for being your honest self, there is no need to lie to make yourself seem more impressive.</p>
+      </section>
+      <section class="main-section" id="Social_game">
+        <header>A better social game</header>
+        <p>The last part of your improvement plan is working on that social game of yours... both inside and out of the game! Your generally off-putting demeanor tends to repel people and that was clearly seen in not a single person picking you as their best friend, but being chosen by multiple people as their enemy. The question is, what can you do to improve this? I have the answer. Have some confidence, be nice, and don't feel jealous and threatened by other women such as Sakura, as clearly evidenced by your glare at her picture on the memory wall earlier today!</p>
+      </section>
+      <section class="main-section" id="The_new_Dorcas">
+        <header>Take a look at the new Dorcas!</header>
+        <p>If you take all three of these points into account, you can truly start building a better you. These are easy first steps and if you take them into account and really put in the work, the new Dorcas will be beloved by not only the people in this wretched psych ward, but by the whole world!</p>
+        <img
+        src="DorcasFBB3.png"
+        data-alt-src="newdorcas.png"
+        alt="Click to reveal truth"
+        class="toggle-image">
+      </section>
+
+    </main>
+
+    <script>
+  const QUESTIONS = [
+    {
+      q: "What does Dorcas need to work on improving as part of her self-improvement plan?",
+      choices: [
+        "Her appearance",
+        "Her pathological lying habits",
+        "Her social game"
+      ],
+      answer: 1
+    }
+  ];
+
+  const SAME_MESSAGE = "It's all of the above!";
+
+  let idx = 0;
+
+  const questionEl = document.getElementById("quiz-question");
+  const choicesEl  = document.getElementById("quiz-choices");
+  const submitBtn  = document.getElementById("quiz-submit");
+  const statusEl   = document.getElementById("quiz-status");
+
+  function renderQuestion() {
+    const q = QUESTIONS[idx];
+
+    questionEl.textContent = q.q;
+    choicesEl.innerHTML = "";
+    choicesEl.style.display = "grid";
+
+    submitBtn.disabled = true;
+    submitBtn.style.display = "inline-block";
+
+    statusEl.className = "quiz__status status";
+    statusEl.style.display = "none";
+    statusEl.textContent = "";
+
+    q.choices.forEach((text, i) => {
+      const label = document.createElement("label");
+      label.innerHTML = `
+        <input type="radio" name="choice" value="${i}">
+        ${text}
+      `;
+      choicesEl.appendChild(label);
+    });
+  }
+
+  choicesEl.addEventListener("change", () => {
+    submitBtn.disabled = false;
+  });
+
+  submitBtn.addEventListener("click", () => {
+    const selected = document.querySelector('#quiz-choices input[name="choice"]:checked');
+    if (!selected) return;
+
+    const q = QUESTIONS[idx];
+    const isCorrect = Number(selected.value) === q.answer;
+
+    choicesEl.style.display = "none";
+
+    statusEl.className = "quiz__status status " + (isCorrect ? "correct" : "wrong");
+    statusEl.style.display = "block";
+    statusEl.innerHTML = `
+      <strong>Incorrect.</strong><br>
+      ${SAME_MESSAGE}
+    `;
+
+    submitBtn.style.display = "none";
+  });
+
+  renderQuestion();
+
+  document.addEventListener("click", (e) => {
+    const img = e.target.closest(".toggle-image");
+    if (!img) return;
+
+    const currentSrc = img.src;
+    const altSrc = img.dataset.altSrc;
+
+    // swap images
+    img.src = altSrc;
+    img.dataset.altSrc = currentSrc;
+  });
+</script>
+
+  </body>
+</html>
